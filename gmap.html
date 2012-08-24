@@ -13,7 +13,7 @@
         <script type="text/javascript">
             var map;
 
-            var waypointsXML;
+            loadWaypoints();
 
             var directionsDisplay;
             var directionsService = new google.maps.DirectionsService();
@@ -54,6 +54,19 @@
                         alert("Error calculating directions.");
                     }
                 });
+            }
+
+            function loadWaypoints() {
+                if (window.XMLHttpRequest) {
+                    xmlhttp = new XMLHttpRequest();
+                } else {
+                    alert('no es bueno!');
+                }
+
+                xmlhttp.open('GET', './underground_railroad/combined.gpx', false);
+                xmlhttp.send();
+                xmlDoc = xmlhttp.responseXML;
+
             }
         </script>
     </head>
