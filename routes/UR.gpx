@@ -2,9 +2,7 @@
 <gpx
  version="1.0"
  creator="Adventure Cycling Association Gozilla.xls"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xmlns="http://www.topografix.com/GPX/1/0"
- xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+ >
  <wpt lat="30.6763" lon="-88.13704"><name>T01070</name><cmt>Pathworks Bicycles</cmt><desc>T01070</desc><sym>Waypoint</sym><type>Waypoint</type></wpt>
  <wpt lat="30.65053" lon="-88.1555"><name>T01090</name><cmt>Bicycles of Mobile BS</cmt><desc>T01090</desc><sym>Waypoint</sym><type>Waypoint</type></wpt>
  <wpt lat="30.68962" lon="-88.17043"><name>T010A0</name><cmt>Cadence 120 Bicycle Works BS</cmt><desc>T010A0</desc><sym>Waypoint</sym><type>Waypoint</type></wpt>
