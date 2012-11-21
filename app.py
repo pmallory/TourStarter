@@ -3,11 +3,14 @@ import xml.etree.ElementTree
 from math import sin, cos, asin, sqrt, radians
 from collections import namedtuple
 
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
-Coordinate = namedtuple('Coordinate', 'lon lat')
+class Coordinate(namedtuple('Coordinate', 'lon lat')):
+    def __str__(self):
+        return '{lat}. {lon}'.format(lat=self.lat, lon=self.lon)
+#Coordinate = namedtuple('Coordinate', 'lon lat')
 
 def load_waypoints():
     """
@@ -53,7 +56,9 @@ def index():
     for waypoint in waypoints:
         distances.append(distance(origin, waypoint))
 
-    return str(sorted(distances))
+    closest_waypoint = sorted(distances)[0]
+
+    return render_template('index.html', destination=str(closest_waypoint))
 
 if __name__ == '__main__':
     waypoints = load_waypoints()
