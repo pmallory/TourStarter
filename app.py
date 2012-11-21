@@ -47,7 +47,7 @@ def distance(a, b):
 @app.route('/')
 def index():
     # The user's starting point. TODO make user selectable
-    origin = Coordinate(lon=33.772441, lat=-84.394701) # Georgia Tech.
+    origin = Coordinate(lat=33.772441, lon=-84.394701) # Georgia Tech.
 
     distances = []
     for waypoint in waypoints:
