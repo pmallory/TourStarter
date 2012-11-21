@@ -1,3 +1,4 @@
 env
 *.pyc
 .*.sw[a-z]
+dev
