@@ -9,8 +9,7 @@ app = Flask(__name__)
 
 class Coordinate(namedtuple('Coordinate', 'lon lat')):
     def __str__(self):
-        return '{lat}. {lon}'.format(lat=self.lat, lon=self.lon)
-#Coordinate = namedtuple('Coordinate', 'lon lat')
+        return '{lat}, {lon}'.format(lat=self.lat, lon=self.lon)
 
 def load_waypoints():
     """
@@ -52,11 +51,7 @@ def index():
     # The user's starting point. TODO make user selectable
     origin = Coordinate(lat=33.772441, lon=-84.394701) # Georgia Tech.
 
-    distances = []
-    for waypoint in waypoints:
-        distances.append(distance(origin, waypoint))
-
-    closest_waypoint = sorted(distances)[0]
+    closest_waypoint = sorted(waypoints, key=lambda waypoint: distance(origin, waypoint))[0]
 
     return render_template('index.html', destination=str(closest_waypoint))
 
