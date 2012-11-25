@@ -2,3 +2,4 @@ env
 *.pyc
 .*.sw[a-z]
 dev
+.DS_Store

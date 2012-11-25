@@ -8,7 +8,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 class Coordinate(namedtuple('Coordinate', 'lon lat')):
-    def __str__(self):
+    def __repr__(self):
         return '{lat}, {lon}'.format(lat=self.lat, lon=self.lon)
 
 def load_waypoints():
@@ -53,7 +53,7 @@ def index():
 
     closest_waypoint = sorted(waypoints, key=lambda waypoint: distance(origin, waypoint))[0]
 
-    return render_template('index.html', destination=str(closest_waypoint))
+    return render_template('index.html', destination=repr(closest_waypoint))
 
 if __name__ == '__main__':
     waypoints = load_waypoints()
