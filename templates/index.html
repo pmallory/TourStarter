@@ -37,8 +37,17 @@
             }
 
             function calcRoute() {
-                var origin = document.getElementById('origin_field').value;
-                //var destination = 'Enterprise, AL';
+                geocoder = new google.maps.Geocoder();
+
+                var address = document.getElementById('origin_field').value;
+                geocoder.geocode({'address': address+' , US', 'region': 'us'}, function(results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) {
+                        origin = results[0].geometry.location;
+                    } else {
+                        alert("There was an error interpreting your input.");
+                    }
+                });
+
                 var destination = new google.maps.LatLng({{destination}});
 
                 var request = {
@@ -58,9 +67,10 @@
         </script>
     </head>
     <body onload="initialize()">
-        <input type="text" id="origin_field" />
+        Origin: <input type="text" id="origin_field" />
         <input type="submit" value="Calculate Route!" onclick="calcRoute();" />
         <div id="map_canvas" style="width:100%; height:70%"></div>
         <div id="text_panel"></div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
     </body>
 </html>
