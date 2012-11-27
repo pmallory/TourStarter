@@ -3,7 +3,7 @@ import xml.etree.ElementTree
 from math import sin, cos, asin, sqrt, radians
 from collections import namedtuple
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
@@ -46,14 +46,26 @@ def distance(a, b):
     # scale distance from radius 1 sphere to Earth sized sphere
     return distance * 6367
 
+@app.route('/_nearest_waypoint')
+def nearest_waypoint():
+    lat = request.args.get('lat')
+    lon = request.args.get('lon')
+    route = request.args.get('route')
+
+    if not (lat and lon and route):
+        return jsonify(result='bad arguments', status='failure')
+
+    coordinate = Coordinate(lat=float(lat), lon=float(lon))
+
+    closest_waypoint = sorted(waypoints, key=lambda waypoint: distance(coordinate, waypoint))[0]
+
+    return jsonify(result={'lat':closest_waypoint.lat, 'lon':closest_waypoint.lon},
+                   status='sucess')
+
+
 @app.route('/')
 def index():
-    # The user's starting point. TODO make user selectable
-    origin = Coordinate(lat=33.772441, lon=-84.394701) # Georgia Tech.
-
-    closest_waypoint = sorted(waypoints, key=lambda waypoint: distance(origin, waypoint))[0]
-
-    return render_template('index.html', destination=repr(closest_waypoint))
+    return render_template('index.html')
 
 if __name__ == '__main__':
     waypoints = load_waypoints()
