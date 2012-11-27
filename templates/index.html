@@ -11,6 +11,9 @@
         <script type="text/javascript"
             src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDykrMkn6lahPJnEnHsPVyixue0sgVyBvs&sensor=false">
         </script>
+        <script>
+            $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        </script>
         <script type="text/javascript">
             var map;
 
@@ -42,27 +45,41 @@
                 var address = document.getElementById('origin_field').value;
                 geocoder.geocode({'address': address+' , US', 'region': 'us'}, function(results, status) {
                     if (status == google.maps.GeocoderStatus.OK) {
-                        origin = results[0].geometry.location;
+                        var origin = results[0].geometry.location;
+
+                        $.getJSON($SCRIPT_ROOT + '/_nearest_waypoint', {
+                            lat: origin.lat(),
+                            lon: origin.lng(),
+                            route: 'TODO'
+                        }, function(data) {
+                            if (data.status == 'sucess') {
+                                route_lat = data.result.lat;
+                                route_lon = data.result.lon;
+
+                                var destination = new google.maps.LatLng(route_lat, route_lon);
+
+                                var request = {
+                                   origin: origin,
+                                   destination: destination,
+                                   travelMode: google.maps.TravelMode.BICYCLING
+                                };
+
+                                directionsService.route(request, function(result, status) {
+                                    if (status == google.maps.DirectionsStatus.OK) {
+                                        directionsDisplay.setDirections(result);
+                                    } else {
+                                        alert("Error calculating directions.");
+                                    }
+                                });
+                            } else {
+                                alert('this is embarrasing');
+                            }
+                        });
                     } else {
                         alert("There was an error interpreting your input.");
                     }
                 });
 
-                var destination = new google.maps.LatLng({{destination}});
-
-                var request = {
-                   origin: origin,
-                   destination: destination,
-                   travelMode: google.maps.TravelMode.BICYCLING
-                };
-
-                directionsService.route(request, function(result, status) {
-                    if (status == google.maps.DirectionsStatus.OK) {
-                        directionsDisplay.setDirections(result);
-                    } else {
-                        alert("Error calculating directions.");
-                    }
-                });
             }
         </script>
     </head>
