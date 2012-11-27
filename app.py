@@ -62,7 +62,6 @@ def nearest_waypoint():
     return jsonify(result={'lat':closest_waypoint.lat, 'lon':closest_waypoint.lon},
                    status='sucess')
 
-
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -72,3 +71,4 @@ if __name__ == '__main__':
 
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0',port=port, debug=os.path.isfile('dev'))
+
