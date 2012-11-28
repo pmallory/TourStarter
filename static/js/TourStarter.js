@@ -63,7 +63,8 @@ function calcRoute() {
                     });
                 } else {
                     // failed to hit the nearest_waypoint controller
-                    alert('this is embarrasing');                             }
+                    alert('this is embarrasing');
+                }
             });
         } else {
             alert("There was an error interpreting your input.");
