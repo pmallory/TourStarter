@@ -20,6 +20,9 @@ function initialize() {
     };
     map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 
+    var bikeLayer = new google.maps.BicyclingLayer();
+    bikeLayer.setMap(map);
+
     directionsDisplay.setMap(map);
     directionsDisplay.setPanel(document.getElementById("text_panel"));
 }
