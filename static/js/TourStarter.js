@@ -23,6 +23,8 @@ function initialize() {
     var bikeLayer = new google.maps.BicyclingLayer();
     bikeLayer.setMap(map);
 
+    drawRoute();
+
     directionsDisplay.setMap(map);
     directionsDisplay.setPanel(document.getElementById("text_panel"));
 }
@@ -69,3 +71,29 @@ function calcRoute() {
     });
 }
 
+function drawRoute() {
+    /* Draw an ACA route on the map based on its GPX */
+    $.ajax({
+        type: "GET",
+        url: "static/routes/UR.gpx",
+        datatype: "xml",
+        success: function(xml) {
+            var points = []
+            $(xml).find("wpt").each(function() {
+                var lat = $(this).attr('lat');
+                var lon = $(this).attr('lon');
+                var point = new google.maps.LatLng(lat, lon);
+                points.push(point);
+            });
+
+            var polyline = new google.maps.Polyline({
+                path: points,
+                strokeColor: '#19A600',
+                strokeOpacity: 0.7,
+                strokeWeight: 3
+            });
+
+            polyline.setMap(map);
+        }
+    });
+}
