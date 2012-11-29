@@ -73,7 +73,7 @@ function calcRoute() {
 }
 
 function drawRoute() {
-    var routeLayer = new google.maps.KmlLayer('http://tsteven4.qwestoffice.net/maps/acroutes.kml');
+    var routeLayer = new google.maps.KmlLayer('http://adventurecycling.org/routes/forestfires/ACANetwork.kmz');
     routeLayer.setMap(map);
 }
 
