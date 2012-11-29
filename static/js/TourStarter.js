@@ -79,12 +79,14 @@ function drawRoute() {
         url: "static/routes/UR.gpx",
         datatype: "xml",
         success: function(xml) {
-            var points = []
             $(xml).find("wpt").each(function() {
                 var lat = $(this).attr('lat');
                 var lon = $(this).attr('lon');
                 var point = new google.maps.LatLng(lat, lon);
-                points.push(point);
+                var marker = new google.maps.Marker({
+                    position: point,
+                    map: map
+                });
             });
 
             var polyline = new google.maps.Polyline({
