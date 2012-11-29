@@ -73,6 +73,11 @@ function calcRoute() {
 }
 
 function drawRoute() {
+    var routeLayer = new google.maps.KmlLayer('http://tsteven4.qwestoffice.net/maps/acroutes.kml');
+    routeLayer.setMap(map);
+}
+
+function drawRoute_old() {
     /* Draw an ACA route on the map based on its GPX */
     $.ajax({
         type: "GET",
@@ -88,15 +93,6 @@ function drawRoute() {
                     map: map
                 });
             });
-
-            var polyline = new google.maps.Polyline({
-                path: points,
-                strokeColor: '#19A600',
-                strokeOpacity: 0.7,
-                strokeWeight: 3
-            });
-
-            polyline.setMap(map);
         }
     });
 }
