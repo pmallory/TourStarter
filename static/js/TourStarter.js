@@ -25,6 +25,10 @@ function initialize() {
     var bikeLayer = new google.maps.BicyclingLayer();
     bikeLayer.setMap(map);
 
+    // TODO should be relative to $SCRIPTROOT
+    var overlay = new google.maps.KmlLayer('http://rocky-citadel-8652.herokuapp.com/static/routes/ACA_network.kmz');
+    overlay.setMap(map);
+
     initializeOverlays();
 
     directionsDisplay.setMap(map);
@@ -55,17 +59,6 @@ function initializeOverlays() {
     routeLayers['utah cliffs'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Utah_Cliffs.kml';
     routeLayers['washington parks'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Washington_Parks.kml';
     routeLayers['western express'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Western_Express.kml';
-
-    var overlay = new google.maps.KmlLayer(routeLayers.florida);
-    overlay.setMap(map);
-
-    /*
-    for (route in routeLayers) {
-        var overlay = new google.maps.KmlLayer(route);
-        overlay.setMap(map);
-    }
-    */
-
 }
 
 function calcRoute() {
