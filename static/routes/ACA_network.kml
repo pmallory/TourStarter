@@ -106,6 +106,8 @@
             </LineString>
         </MultiGeometry>
     </Placemark>
+</Doument>
+<!--
 	<Document>
 		<name>Florida</name>
 		<Style id="s_ylw-pushpin0">
@@ -9836,4 +9838,6 @@
 		</Document>
 	</Folder>
 </Folder>
+-->
+</Document>
 </kml>
