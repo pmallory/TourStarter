@@ -8,8 +8,9 @@
         </LineStyle>
     </Style>
     <Placemark>
-        <styleUrl>#green</styleUrl>
         <name>U21071</name>
+        <alitudeMode>relative</altitudeMode>
+        <styleUrl>#green</styleUrl>
         <MultiGeometry>
             <LineString>
                 <coordinates>
@@ -19,8 +20,8 @@
         </MultiGeometry>
     </Placemark>
     <Placemark>
-        <styleUrl>#green</styleUrl>
         <name>U11050</name>
+        <styleUrl>#green</styleUrl>
         <MultiGeometry>
             <LineString>
                 <coordinates>
