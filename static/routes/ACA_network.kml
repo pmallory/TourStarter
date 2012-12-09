@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
 	<name>Temporary Places</name>
 	<Document>
         <Style id="green">
             <LineStyle>
                 <color>ff009900</color>
-                <width>2</width>
+                <width>4</width>
             </LineStyle>
         </Style>
 		<name>Adirondacks</name>
