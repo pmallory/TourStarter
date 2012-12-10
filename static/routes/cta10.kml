@@ -5,8 +5,7 @@ https://github.com/rfay/Warmshowers.org/tree/site/sites/all/modules/dev/wsmap/km
 Compiled by: Kevin 0'Leary
 cleaned up by: Philip Mallory-->
   <Document>
-    <name>Chicago Transit Map</name>
-    <description>Chicago Transit Authority train lines</description>
+    <name>Adventure Cycling Route Network</name>
 
     <Style id="blueLine">
       <LineStyle>
@@ -713,667 +712,242 @@ cleaned up by: Philip Mallory-->
         <altitudeMode>relative</altitudeMode>
         <coordinates>
 -91.03623,41.4266499,0 -91.04107999999999,41.42365,0 -91.05739,41.41524,0 -91.06348989999999,41.4087599,0 -91.0633599,41.4009499,0 -91.09995990000002,41.3558399,0 -91.14245,41.2324599,0 -91.11540990000002,41.19637,0 -91.16888989999998,41.1815699,0 -91.07923990000001,41.14607,0 -91.05916000000001,41.13958,0 -91.0620699,41.10028,0 -91.0443499,41.095,0 -91.04425999999999,41.0729899,0 -91.04417000000001,41.06578,0 -91.04486,41.0189999,0 -91.0303143,40.9910726,0 -91.10026000000001,40.8134399,0 -91.09650990000002,40.8120699,0 -91.0566199,40.81511,0 -91.07086990000001,40.6798799,0 -91.16755000000002,40.63624,0 -91.15673990000001,40.6234499,0 -91.15696,40.5940099,0 -91.21493,40.5945299,0 -91.21540999999999,40.565,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--91.21540999999999,40.565,0 -91.26849000000001,40.56564,0 -91.26862,40.5506199,0 -91.3081899,40.55191,0 -91.38637989999998,40.54968,0 -91.38641989999999,40.5399799,0 -91.35892000000001,40.51762,0 -91.35883,40.47346,0 -91.37163,40.44005,0 -91.3510599,40.40864,0 -91.3526099,40.39656,0 -91.35955989999999,40.39016,0 -91.36019999999999,40.38694,0 -91.42810990000001,40.36734,0 -91.43440000000001,40.3591799,0 -91.44186999999999,40.36162,0 -91.44582,40.34716,0 -91.41874,40.2133099,0 -91.41802,40.1995199,0 -91.41923989999999,40.07493,0 -91.39556,40.0749499,0 -91.41272999999998,39.97968,0 -91.41578000000001,39.93582,0 -91.41466,39.93582,0 -91.4131999,39.9210999,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
--91.4131999,39.9210999,0 -91.40324990000001,39.92105,0 -91.40531,39.8938899,0 -91.3009799,39.7839,0 -91.3034299,39.75802,0 -91.30423999999998,39.74415,0 -91.3721699,39.7159099,0 -91.359,39.7122299,0 -91.35522,39.70691,0 -91.31578999999999,39.6848899,0 -91.30665809999999,39.6752031,0 -91.31777989999999,39.66196,0 -91.30251989999999,39.64148,0 -91.29265,39.64592,0 -91.27454,39.6372999,0 -91.27065999999999,39.62786,0 -91.24972990000001,39.62359,0 -91.23304,39.59674,0 -91.21269000000001,39.5933,0 -91.18545000000002,39.55263,0 -91.20643990000002,39.498,0 -91.15568,39.48904,0 -91.15377999999998,39.46817,0 -91.09594,39.47164,0 -91.0546899,39.45448,0 
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--91.0546899,39.45448,0 -91.05137990000002,39.4548199,0 -91.03364000000001,39.43512,0 -90.9020354,39.367403,0 -90.90000000000001,39.3,0 -90.90105000000001,39.2642399,0 -90.89071000000001,39.2251,0 -90.86041999999999,39.17777,0 -90.86370000000001,39.1350799,0 -90.8777899,39.12807,0 -90.86311000000001,39.0689299,0 -90.87865999999998,39.06078,0 -90.8789499,39.0508199,0 -90.89791990000002,39.0503899,0 -90.9012324,39.049761,0 -90.91238000000001,39.00301,0 -90.90816999999998,38.98885,0 -90.95538000000001,38.9857599,0 -90.98121999999999,38.9794899,0 -90.97797989999999,38.9680899,0 -90.97368999999999,38.95226,0 -90.96766,38.92433,0 -90.96557999999999,38.9186599,0 -90.97165,38.8710999,0 -90.9775499,38.8697,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--90.9775499,38.8697,0 -90.99717,38.83127,0 -90.99838990000001,38.82568,0 -91.02057000000001,38.8307,0 -91.02023,38.82658,0 -91.0216399,38.82654,0 -91.02764999999999,38.79109,0 -90.99069999999999,38.7820799,0 -90.9899899,38.74553,0 -91.00564989999998,38.72918,0 -91.02198,38.7283799,0 -91.06722000000002,38.63608,0 -91.06604400000002,38.6292196,0 -91.06010990000002,38.62812,0 -91.0602445,38.6270839,0 -90.99889760000001,38.6020088,0 -91.00498000000002,38.59989,0 -90.99499,38.56224,0 -91.00199000000001,38.5521399,0 -91.01306,38.55648,0 -91.02732000000002,38.5229599,0 -91.0461,38.5114099,0 -91.04387,38.4817999,0 -91.05215989999999,38.4684999,0 -91.0404099,38.4429599,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--91.0404099,38.4429599,0 -91.02500000000001,38.44,0 -91.04237000000001,38.4422399,0 -91.04627000000002,38.43044,0 -91.05528999999999,38.39932,0 -91.08211,38.38481,0 -91.1293599,38.4006499,0 -91.13240999999999,38.39348,0 -91.1853599,38.3984199,0 -91.18929000000001,38.3915299,0 -91.19256999999999,38.35389,0 -91.2382799,38.2947299,0 -91.2102099,38.25096,0 -91.19831000000001,38.2534999,0 -91.17334990000001,38.22959,0 -91.16355999999999,38.21908,0 -91.15643989999998,38.2255599,0 -91.10288500000002,38.2075383,0 -91.07545000000002,38.21062,0 -91.05691,38.20405,0 -91.04430000000001,38.19626,0 -91.03850989999999,38.1393399,0 -91.0073,38.13492,0 -90.99086999999999,38.1035,0 -90.99730990000001,38.0982699,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--90.99730990000001,38.0982699,0 -90.99187000000001,38.0762,0 -90.94564990000001,38.06625,0 -90.79648990000001,37.9443599,0 -90.7944499,37.94115,0 -90.7769,37.92845,0 -90.7926099,37.9067999,0 -90.85655989999999,37.8927599,0 -90.90782989999998,37.8577299,0 -90.9052999,37.8082899,0 -90.90937990000001,37.80765,0 -90.94377990000001,37.76905,0 -90.93433999999999,37.74752,0 -90.94362000000001,37.73781,0 -90.96679999999999,37.69606,0 -90.9687799,37.6882599,0 -90.91116999999998,37.68298,0 -90.89160990000001,37.6974799,0 -90.86964000000002,37.68972,0 -90.90191,37.6625899,0 -90.92386999999999,37.6033699,0 -90.93315,37.5885599,0 -90.92232,37.5438199,0 -90.93444,37.5278399,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--90.93444,37.5278399,0 -90.92041999999999,37.52373,0 -90.9232299,37.50264,0 -90.89568989999999,37.4821799,0 -90.89547,37.4810599,0 -90.82548,37.4496899,0 -90.77119,37.46359,0 -90.7402299,37.4832899,0 -90.69183990000001,37.4936299,0 -90.69776,37.36038,0 -90.6738599,37.3554,0 -90.61761,37.38063,0 -90.54875,37.3822999,0 -90.47426,37.38527,0 -90.44871999999999,37.35467,0 -90.44127999999999,37.3648699,0 -90.39614999999999,37.3944999,0 -90.37086999999998,37.45266,0 -90.36742990000001,37.46223,0 -90.30453,37.4866,0 -90.3062,37.49179,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--90.3062,37.49179,0 -90.27567999999999,37.4888399,0 -90.24391989999998,37.4789599,0 -90.21449989999999,37.44028,0 -90.20074990000001,37.4352799,0 -90.18172389999999,37.4358944,0 -90.1736399,37.4266,0 -90.14427000000001,37.44294,0 -90.03245,37.47505,0 -90.03612990000001,37.4415399,0 -89.99299000000001,37.43315,0 -89.9807599,37.40943,0 -89.92198000000001,37.39875,0 -89.86248000000001,37.3844999,0 -89.82666,37.3839399,0 -89.80743990000001,37.36734,0 -89.80087,37.3284299,0 -89.77339000000001,37.3200899,0 -89.7255499,37.3146799,0 -89.6667599,37.31296,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--89.6667599,37.31296,0 -89.66605,37.3171399,0 -89.61921,37.31099,0 -89.61694,37.32339,0 -89.6092099,37.3220999,0 -89.60831,37.3252799,0 -89.58354989999999,37.32378,0 -89.58331990000001,37.32017,0 -89.5725199,37.31923,0 -89.57384999999999,37.3079799,0 -89.52119999999999,37.3035099,0 -89.52204,37.2975699,0 -89.52316999999999,37.29775,0 -89.52333,37.29502,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--90.99890000000001,38.60201,0 -90.96418989999998,38.56969,0 -90.93483989999999,38.56503,0 -90.82093,38.58379,0 -90.7653399,38.6502199,0 -90.71644740000001,38.674901,0 -90.66459,38.69098,0 -90.5235,38.7382,0 -90.52253999999999,38.73933,0 -90.4964999,38.7049999,0 -90.4993199,38.6933499,0 -90.4950899,38.69087,0 -90.4811,38.70293,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--90.4811,38.70293,0 -90.47304,38.70571,0 -90.45011,38.70365,0 -90.44399,38.7013899,0 -90.43547,38.67101,0 -90.42952,38.6714,0 -90.4292399,38.6552699,0 -90.40552,38.6549099,0 -90.3440999,38.6523899,0 -90.34280990000001,38.65059,0 -90.30058,38.64587,0 -90.29908,38.6466799,0 -90.28576990000001,38.6445399,0 -90.27341989999999,38.6409299,0 -90.2672199,38.64409,0 -90.2647899,38.6438499,0 -90.20834999999998,38.63192,0 -90.20908,38.62982,0 -90.19552,38.62677,0 -90.19591,38.6258699,0 -90.18810000000002,38.62398,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
--91.11540990000002,41.19637,0 -91.10516,41.18156,0 -91.07923990000001,41.14607,0 
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
--89.52333,37.29502,0 -89.5191099,37.2964299,0 -89.51555000000001,37.29621,0 -89.51193000000001,37.29612,0 -89.44828,37.2955399,0 -89.4372499,37.31768,0 -89.4016299,37.32038,0 -89.3638199,37.30451,0 -89.3594799,37.28361,0 -89.33462,37.2777,0 -89.3217599,37.23168,0 -89.27146999999999,37.23546,0 -89.26477,37.2329699,0 -89.2545999,37.27661,0 -89.22577,37.2764399,0 -89.1935799,37.27605,0 -89.18504,37.27592,0 -89.1848,37.2755199,0 -89.18349000000001,37.2754499,0 -89.18401,37.27228,0 -89.0225999,37.2737799,0 -89.02229989999999,37.28721,0 -88.87488000000001,37.29103,0 -88.87110989999999,37.2763999,0 
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--88.87110989999999,37.2763999,0 -88.84648,37.27395,0 -88.84583000000001,37.2732199,0 -88.79386,37.25374,0 -88.79369,37.25747,0 -88.7504799,37.25747,0 -88.73593,37.24743,0 -88.73554,37.2498799,0 -88.6022499,37.24786,0 -88.60203,37.25138,0 -88.5931899,37.2514199,0 -88.57932990000001,37.27288,0 -88.5614099,37.2729199,0 -88.538,37.2951099,0 -88.53764990000001,37.30892,0 -88.5086599,37.32096,0 -88.4906699,37.35858,0 -88.48839,37.36781,0 -88.48963999999999,37.40231,0 -88.4715508,37.4402749,0 -88.40557,37.46046,0 -88.34402,37.45321,0 -88.3361776,37.4450076,0 -88.30218000000001,37.4464699,0 -88.2857499,37.4713199,0 -88.28515,37.4679999,0 -88.2504299,37.4674099,0 -88.2418899,37.46397,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--88.2418899,37.46397,0 -88.1706899,37.46947,0 -88.16615,37.4695099,0 -88.16575,37.46454,0 -88.1581599,37.44192,0 -88.1851099,37.41467,0 -88.2350592,37.43454,0 -88.29588,37.4223099,0 -88.34593,37.3965699,0 -88.37514,37.39853,0 -88.37561,37.3977599,0 -88.37656,37.3980199,0 -88.38694,37.3547599,0 -88.38903999999999,37.3533,0 -88.39119,37.3163499,0 -88.45054,37.2887099,0 -88.44919,37.28633,0 -88.4544399,37.2611099,0 -88.45023999999999,37.2576,0 -88.46590999999999,37.2435699,0 -88.41126989999999,37.1830099,0 -88.39796990000001,37.15671,0 -88.4047099,37.13954,0 -88.36196990000001,37.08993,0 -88.32519000000001,37.07668,0 -88.31094,37.07894,0 -88.26745,37.04618,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--89.71933,32.69089,0 -89.82173,32.63147,0 -89.8618999,32.5853999,0 -89.97499000000001,32.5246399,0 -90.06065989999999,32.46458,0 -90.08708670000002,32.4263682,0 -90.14490000000001,32.42844,0 -90.16174,32.43088,0 -90.21771990000002,32.4159599,0 -90.25968,32.3823099,0 -90.3536099,32.3424599,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--90.3536099,32.3424599,0 -90.4067299,32.29272,0 -90.46567989999998,32.2808799,0 -90.63918,32.1825999,0 -90.7654699,32.1190199,0 -90.86821999999999,32.0003999,0 -90.93331000000001,31.9919199,0 -90.95778,31.96571,0 -90.97216,31.94035,0 -90.99460999999999,31.9300499,0 -91.05721989999999,31.84391,0 -91.17704000000001,31.7473099,0 -91.18416000000001,31.68736,0 -91.23574989999999,31.62758,0 -91.26176,31.60895,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--91.26176,31.60895,0 -91.27755999999998,31.5909699,0 -91.30434990000001,31.5708099,0 -91.36854000000001,31.54543,0 -91.32755,31.52830000000001,0 -91.31041999999999,31.51214,0 -91.2855199,31.5119599,0 -91.11180989999998,31.39863,0 -91.12869000000001,31.35524,0 -91.10885999999999,31.3243399,0 -91.1015999,31.31356990000001,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--91.1015999,31.31356990000001,0 -91.1247699,31.3009899,0 -91.1209899,31.2906899,0 -91.13659999999999,31.2698099,0 -91.1373399,31.2670899,0 -91.14700000000001,31.2609499,0 -91.1253299,31.2351199,0 -91.12194,31.13058,0 -91.10122,31.12264,0 -91.09216000000001,31.10837,0 -91.06842,31.10783,0 -91.06748,31.09277000000001,0 -91.06893990000002,31.0904899,0 -91.0643,31.08749,0 -91.07171990000002,31.07895,0 -91.07155990000001,31.07676,0 -91.07164,31.0741399,0 -91.07293,31.02046,0 -91.10361,31.02535,0 -91.09971,30.9994699,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--91.09971,30.9994699,0 -91.10382989999999,30.9780999,0 -91.10507990000001,30.94973,0 -91.11586990000001,30.9332899,0 -91.12000000000001,30.91679,0 -91.12524000000001,30.91932,0 -91.1863199,30.83496,0 -91.2296499,30.84038,0 -91.24751000000001,30.83343,0 -91.26269990000002,30.8210699,0 -91.34496999999999,30.78107,0 -91.28589000000001,30.7474399,0 -91.2797999,30.74584,0 -91.268,30.68791,0 -91.26560999999998,30.67868,0 -91.197593,30.551872,0 -91.166314,30.460304,0 -91.16597499999999,30.45309,0 -91.18716000000001,30.45254,0 -91.18737800000001,30.457023,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--92.06669000000001,38.58282,0 -92.16306000000002,38.60625,0 -92.367323,38.7406388,0 -92.38300000000001,38.81538,0 -92.47374000000001,38.9107,0 -92.56180999999998,38.97774,0 -92.75136999999999,39.01198,0 -92.75542,38.98696,0 -92.74773999999999,38.98692,0 -92.74435,38.97747,0 -92.74376,38.97534,0 -92.75426,38.97254,0 -92.83937000000002,38.93568,0 -92.84662,38.93615,0 -92.9473,38.99099,0 -92.9455111,39.0612465,0 -92.9635127,39.0801924,0 -93.11836,39.12626,0 -93.18612,39.13433,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--90.51815999999998,38.82427,0 -90.51333,38.81936,0 -90.50185000000001,38.798,0 -90.50318,38.7974,0 -90.4943,38.78654,0 -90.49155,38.78556,0 -90.49207,38.78461,0 -90.48134,38.78109,0 -90.48494,38.77401,0 -90.48418,38.77372,0 -90.48943,38.76672,0 -90.57755,38.71226,0 -90.66404999999999,38.6906,0 -90.7546445,38.6567095,0 -90.83903429999999,38.5780922,0 -90.96213760000001,38.5689119,0 -90.99869,38.60176,0 -91.0602,38.62698,0 -91.2116422,38.6451817,0 -91.36818839999999,38.7345594,0 -91.80654320000001,38.7067491,0 -92.06669000000001,38.58282,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--90.10929000000002,38.80524,0 -90.09956,38.80484,0 -90.09941000000001,38.80604,0 -90.10423999999999,38.84079,0 -90.1706846,38.8845386,0 -90.17341999999999,38.88552,0 -90.18439000000001,38.88881,0 -90.18724,38.89047,0 -90.19031,38.8909,0 -90.29271000000001,38.93787,0 -90.42901999999999,38.96979,0 -90.42901999999999,38.96906,0 -90.4352,38.96919,0 -90.46095999999999,38.97185,0 -90.50417,38.96876,0 -90.49516,38.96795,0 -90.51344,38.92503,0 -90.57245000000002,38.93083,0 -90.57035000000001,38.92426,0 -90.56862000000001,38.92393,0 -90.56271,38.90096,0 -90.57944000000001,38.89392,0 -90.5673,38.87153,0 -90.56399,38.85319,0 -90.51061,38.85345,0 -90.51091,38.83624,0 -90.51815999999998,38.82427,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--88.26745,37.04618,0 -88.2678299,37.0408,0 -88.22287,36.9917799,0 -88.1636699,36.95254,0 -88.1199199,36.9452599,0 -88.0871899,36.8869399,0 -88.0664099,36.77935,0 -88.0700899,36.74909,0 -88.00344990000001,36.67648,0 -87.95473,36.60867,0 -87.94088000000001,36.60584,0 -87.88856989999999,36.48015,0 -87.9660299,36.47487,0 -87.9790699,36.45882,0 -87.9617299,36.40514,0 -87.94689990000001,36.39434,0 -87.9529999,36.38725,0 -87.90470000000001,36.32902,0 -87.9068499,36.31599,0 -87.92092,36.2987,0 -87.86161,36.25162,0 -87.8395599,36.25892,0 -87.8484,36.2316199,0 -87.80786999999999,36.19884,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--87.80786999999999,36.19884,0 -87.82432,36.18961,0 -87.8307999,36.1641599,0 -87.8204599,36.1580199,0 -87.80252,36.08718,0 -87.8009299,36.08395,0 -87.81896,36.08215,0 -87.8260399,36.05769,0 -87.82007,36.02992,0 -87.77209000000001,36.03558,0 -87.77191999999999,36.0336499,0 -87.76300000000001,36.0318799,0 -87.7369099,36.00269,0 -87.70516000000001,35.9916399,0 -87.6900699,35.9623299,0 -87.6848899,35.96271,0 -87.68407999999999,35.96064,0 -87.65149990000001,35.93791,0 -87.64973999999999,35.89432,0 -87.6293099,35.89242,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--87.6293099,35.89242,0 -87.57633,35.88032,0 -87.54465,35.88626,0 -87.46885,35.8595499,0 -87.43229,35.8345299,0 -87.36411990000001,35.86176,0 -87.35623990000001,35.85933,0 -87.3172799,35.80517,0 -87.32461000000001,35.7793599,0 -87.3064499,35.77366,0 -87.30762,35.75427,0 -87.31217,35.75269,0 -87.2726067,35.7210733,0 -87.25934,35.7211899,0 -87.2606299,35.72252,0 -87.32038,35.6865599,0 -87.31926,35.66379,0 -87.36093990000001,35.65586,0 -87.4331,35.5778499,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--87.4331,35.5778499,0 -87.4318699,35.53385,0 -87.45838000000001,35.50361,0 -87.52233,35.4038,0 -87.57364990000001,35.34431,0 -87.5804699,35.3211199,0 -87.59175000000001,35.29468,0 -87.63403990000001,35.25159,0 -87.69645,35.24048,0 -87.73287000000001,35.17376,0 -87.76197000000001,35.1227299,0 -87.81401990000001,35.0481899,0 -87.8211099,35.00519,0 -87.82192000000001,34.9550599,0 -87.84213,34.92682,0 -87.89456989999999,34.87747,0 -87.9219499,34.8422,0 -87.9692199,34.8198,0 -87.98155,34.7887399,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--87.98155,34.7887399,0 -88.01842000000001,34.76144,0 -88.04079,34.73115,0 -88.0352899,34.7037,0 -88.08317990000001,34.67804,0 -88.0944099,34.6578999,0 -88.1310799,34.6448699,0 -88.2216699,34.6015699,0 -88.24641,34.59266,0 -88.29449,34.51318,0 -88.31484,34.5041499,0 -88.4938899,34.45677,0 -88.63902,34.4052399,0 -88.6586999,34.37927,0 -88.69345,34.34725,0 -88.70632000000001,34.33321,0 -88.7248499,34.2997399,0 -88.73268,34.28211,0 -88.7577299,34.25206,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
--88.7577299,34.25206,0 -88.86450000000001,34.0904899,0 -88.91076990000001,33.98629,0 -88.9307,33.9648599,0 -88.92434,33.9301299,0 -88.94799999999999,33.89857,0 -88.9536399,33.85961,0 -89.01038,33.7904999,0 -89.04599,33.6766599,0 -89.11532,33.5984099,0 -89.14621990000001,33.54046,0 -89.24083,33.44041,0 -89.2647965,33.4225274,0 -89.29271989999999,33.3713599,0 -89.3263999,33.36074,0 -89.40295999999999,33.29308,0 -89.45232,33.21411,0 -89.45941999999999,33.1728599,0 -89.5129099,33.0975599,0 -89.5791,33.0369099,0 -89.5963,33.01936,0 -89.62627000000001,32.9009099,0 -89.6626,32.85869,0 -89.6872999,32.79832,0 -89.68922000000001,32.7398399,0 -89.71126990000001,32.70381,0 -89.71933,32.69089,0 
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Great Rivers</name>
-      <styleUrl>#brownLine</styleUrl>
-      <LineString>
-        <altitudeMode>relative</altitudeMode>
-        <coordinates>
-        </coordinates>
-      </LineString>
+         </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -91.21540999999999,40.565,0 -91.26849000000001,40.56564,0 -91.26862,40.5506199,0 -91.3081899,40.55191,0 -91.38637989999998,40.54968,0 -91.38641989999999,40.5399799,0 -91.35892000000001,40.51762,0 -91.35883,40.47346,0 -91.37163,40.44005,0 -91.3510599,40.40864,0 -91.3526099,40.39656,0 -91.35955989999999,40.39016,0 -91.36019999999999,40.38694,0 -91.42810990000001,40.36734,0 -91.43440000000001,40.3591799,0 -91.44186999999999,40.36162,0 -91.44582,40.34716,0 -91.41874,40.2133099,0 -91.41802,40.1995199,0 -91.41923989999999,40.07493,0 -91.39556,40.0749499,0 -91.41272999999998,39.97968,0 -91.41578000000001,39.93582,0 -91.41466,39.93582,0 -91.4131999,39.9210999,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -91.4131999,39.9210999,0 -91.40324990000001,39.92105,0 -91.40531,39.8938899,0 -91.3009799,39.7839,0 -91.3034299,39.75802,0 -91.30423999999998,39.74415,0 -91.3721699,39.7159099,0 -91.359,39.7122299,0 -91.35522,39.70691,0 -91.31578999999999,39.6848899,0 -91.30665809999999,39.6752031,0 -91.31777989999999,39.66196,0 -91.30251989999999,39.64148,0 -91.29265,39.64592,0 -91.27454,39.6372999,0 -91.27065999999999,39.62786,0 -91.24972990000001,39.62359,0 -91.23304,39.59674,0 -91.21269000000001,39.5933,0 -91.18545000000002,39.55263,0 -91.20643990000002,39.498,0 -91.15568,39.48904,0 -91.15377999999998,39.46817,0 -91.09594,39.47164,0 -91.0546899,39.45448,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -91.0546899,39.45448,0 -91.05137990000002,39.4548199,0 -91.03364000000001,39.43512,0 -90.9020354,39.367403,0 -90.90000000000001,39.3,0 -90.90105000000001,39.2642399,0 -90.89071000000001,39.2251,0 -90.86041999999999,39.17777,0 -90.86370000000001,39.1350799,0 -90.8777899,39.12807,0 -90.86311000000001,39.0689299,0 -90.87865999999998,39.06078,0 -90.8789499,39.0508199,0 -90.89791990000002,39.0503899,0 -90.9012324,39.049761,0 -90.91238000000001,39.00301,0 -90.90816999999998,38.98885,0 -90.95538000000001,38.9857599,0 -90.98121999999999,38.9794899,0 -90.97797989999999,38.9680899,0 -90.97368999999999,38.95226,0 -90.96766,38.92433,0 -90.96557999999999,38.9186599,0 -90.97165,38.8710999,0 -90.9775499,38.8697,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -90.9775499,38.8697,0 -90.99717,38.83127,0 -90.99838990000001,38.82568,0 -91.02057000000001,38.8307,0 -91.02023,38.82658,0 -91.0216399,38.82654,0 -91.02764999999999,38.79109,0 -90.99069999999999,38.7820799,0 -90.9899899,38.74553,0 -91.00564989999998,38.72918,0 -91.02198,38.7283799,0 -91.06722000000002,38.63608,0 -91.06604400000002,38.6292196,0 -91.06010990000002,38.62812,0 -91.0602445,38.6270839,0 -90.99889760000001,38.6020088,0 -91.00498000000002,38.59989,0 -90.99499,38.56224,0 -91.00199000000001,38.5521399,0 -91.01306,38.55648,0 -91.02732000000002,38.5229599,0 -91.0461,38.5114099,0 -91.04387,38.4817999,0 -91.05215989999999,38.4684999,0 -91.0404099,38.4429599,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -91.0404099,38.4429599,0 -91.02500000000001,38.44,0 -91.04237000000001,38.4422399,0 -91.04627000000002,38.43044,0 -91.05528999999999,38.39932,0 -91.08211,38.38481,0 -91.1293599,38.4006499,0 -91.13240999999999,38.39348,0 -91.1853599,38.3984199,0 -91.18929000000001,38.3915299,0 -91.19256999999999,38.35389,0 -91.2382799,38.2947299,0 -91.2102099,38.25096,0 -91.19831000000001,38.2534999,0 -91.17334990000001,38.22959,0 -91.16355999999999,38.21908,0 -91.15643989999998,38.2255599,0 -91.10288500000002,38.2075383,0 -91.07545000000002,38.21062,0 -91.05691,38.20405,0 -91.04430000000001,38.19626,0 -91.03850989999999,38.1393399,0 -91.0073,38.13492,0 -90.99086999999999,38.1035,0 -90.99730990000001,38.0982699,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -90.99730990000001,38.0982699,0 -90.99187000000001,38.0762,0 -90.94564990000001,38.06625,0 -90.79648990000001,37.9443599,0 -90.7944499,37.94115,0 -90.7769,37.92845,0 -90.7926099,37.9067999,0 -90.85655989999999,37.8927599,0 -90.90782989999998,37.8577299,0 -90.9052999,37.8082899,0 -90.90937990000001,37.80765,0 -90.94377990000001,37.76905,0 -90.93433999999999,37.74752,0 -90.94362000000001,37.73781,0 -90.96679999999999,37.69606,0 -90.9687799,37.6882599,0 -90.91116999999998,37.68298,0 -90.89160990000001,37.6974799,0 -90.86964000000002,37.68972,0 -90.90191,37.6625899,0 -90.92386999999999,37.6033699,0 -90.93315,37.5885599,0 -90.92232,37.5438199,0 -90.93444,37.5278399,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -90.93444,37.5278399,0 -90.92041999999999,37.52373,0 -90.9232299,37.50264,0 -90.89568989999999,37.4821799,0 -90.89547,37.4810599,0 -90.82548,37.4496899,0 -90.77119,37.46359,0 -90.7402299,37.4832899,0 -90.69183990000001,37.4936299,0 -90.69776,37.36038,0 -90.6738599,37.3554,0 -90.61761,37.38063,0 -90.54875,37.3822999,0 -90.47426,37.38527,0 -90.44871999999999,37.35467,0 -90.44127999999999,37.3648699,0 -90.39614999999999,37.3944999,0 -90.37086999999998,37.45266,0 -90.36742990000001,37.46223,0 -90.30453,37.4866,0 -90.3062,37.49179,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -90.3062,37.49179,0 -90.27567999999999,37.4888399,0 -90.24391989999998,37.4789599,0 -90.21449989999999,37.44028,0 -90.20074990000001,37.4352799,0 -90.18172389999999,37.4358944,0 -90.1736399,37.4266,0 -90.14427000000001,37.44294,0 -90.03245,37.47505,0 -90.03612990000001,37.4415399,0 -89.99299000000001,37.43315,0 -89.9807599,37.40943,0 -89.92198000000001,37.39875,0 -89.86248000000001,37.3844999,0 -89.82666,37.3839399,0 -89.80743990000001,37.36734,0 -89.80087,37.3284299,0 -89.77339000000001,37.3200899,0 -89.7255499,37.3146799,0 -89.6667599,37.31296,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -89.6667599,37.31296,0 -89.66605,37.3171399,0 -89.61921,37.31099,0 -89.61694,37.32339,0 -89.6092099,37.3220999,0 -89.60831,37.3252799,0 -89.58354989999999,37.32378,0 -89.58331990000001,37.32017,0 -89.5725199,37.31923,0 -89.57384999999999,37.3079799,0 -89.52119999999999,37.3035099,0 -89.52204,37.2975699,0 -89.52316999999999,37.29775,0 -89.52333,37.29502,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -90.99890000000001,38.60201,0 -90.96418989999998,38.56969,0 -90.93483989999999,38.56503,0 -90.82093,38.58379,0 -90.7653399,38.6502199,0 -90.71644740000001,38.674901,0 -90.66459,38.69098,0 -90.5235,38.7382,0 -90.52253999999999,38.73933,0 -90.4964999,38.7049999,0 -90.4993199,38.6933499,0 -90.4950899,38.69087,0 -90.4811,38.70293,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -90.4811,38.70293,0 -90.47304,38.70571,0 -90.45011,38.70365,0 -90.44399,38.7013899,0 -90.43547,38.67101,0 -90.42952,38.6714,0 -90.4292399,38.6552699,0 -90.40552,38.6549099,0 -90.3440999,38.6523899,0 -90.34280990000001,38.65059,0 -90.30058,38.64587,0 -90.29908,38.6466799,0 -90.28576990000001,38.6445399,0 -90.27341989999999,38.6409299,0 -90.2672199,38.64409,0 -90.2647899,38.6438499,0 -90.20834999999998,38.63192,0 -90.20908,38.62982,0 -90.19552,38.62677,0 -90.19591,38.6258699,0 -90.18810000000002,38.62398,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -91.11540990000002,41.19637,0 -91.10516,41.18156,0 -91.07923990000001,41.14607,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -89.52333,37.29502,0 -89.5191099,37.2964299,0 -89.51555000000001,37.29621,0 -89.51193000000001,37.29612,0 -89.44828,37.2955399,0 -89.4372499,37.31768,0 -89.4016299,37.32038,0 -89.3638199,37.30451,0 -89.3594799,37.28361,0 -89.33462,37.2777,0 -89.3217599,37.23168,0 -89.27146999999999,37.23546,0 -89.26477,37.2329699,0 -89.2545999,37.27661,0 -89.22577,37.2764399,0 -89.1935799,37.27605,0 -89.18504,37.27592,0 -89.1848,37.2755199,0 -89.18349000000001,37.2754499,0 -89.18401,37.27228,0 -89.0225999,37.2737799,0 -89.02229989999999,37.28721,0 -88.87488000000001,37.29103,0 -88.87110989999999,37.2763999,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -88.87110989999999,37.2763999,0 -88.84648,37.27395,0 -88.84583000000001,37.2732199,0 -88.79386,37.25374,0 -88.79369,37.25747,0 -88.7504799,37.25747,0 -88.73593,37.24743,0 -88.73554,37.2498799,0 -88.6022499,37.24786,0 -88.60203,37.25138,0 -88.5931899,37.2514199,0 -88.57932990000001,37.27288,0 -88.5614099,37.2729199,0 -88.538,37.2951099,0 -88.53764990000001,37.30892,0 -88.5086599,37.32096,0 -88.4906699,37.35858,0 -88.48839,37.36781,0 -88.48963999999999,37.40231,0 -88.4715508,37.4402749,0 -88.40557,37.46046,0 -88.34402,37.45321,0 -88.3361776,37.4450076,0 -88.30218000000001,37.4464699,0 -88.2857499,37.4713199,0 -88.28515,37.4679999,0 -88.2504299,37.4674099,0 -88.2418899,37.46397,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -88.2418899,37.46397,0 -88.1706899,37.46947,0 -88.16615,37.4695099,0 -88.16575,37.46454,0 -88.1581599,37.44192,0 -88.1851099,37.41467,0 -88.2350592,37.43454,0 -88.29588,37.4223099,0 -88.34593,37.3965699,0 -88.37514,37.39853,0 -88.37561,37.3977599,0 -88.37656,37.3980199,0 -88.38694,37.3547599,0 -88.38903999999999,37.3533,0 -88.39119,37.3163499,0 -88.45054,37.2887099,0 -88.44919,37.28633,0 -88.4544399,37.2611099,0 -88.45023999999999,37.2576,0 -88.46590999999999,37.2435699,0 -88.41126989999999,37.1830099,0 -88.39796990000001,37.15671,0 -88.4047099,37.13954,0 -88.36196990000001,37.08993,0 -88.32519000000001,37.07668,0 -88.31094,37.07894,0 -88.26745,37.04618,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -88.26745,37.04618,0 -88.2678299,37.0408,0 -88.22287,36.9917799,0 -88.1636699,36.95254,0 -88.1199199,36.9452599,0 -88.0871899,36.8869399,0 -88.0664099,36.77935,0 -88.0700899,36.74909,0 -88.00344990000001,36.67648,0 -87.95473,36.60867,0 -87.94088000000001,36.60584,0 -87.88856989999999,36.48015,0 -87.9660299,36.47487,0 -87.9790699,36.45882,0 -87.9617299,36.40514,0 -87.94689990000001,36.39434,0 -87.9529999,36.38725,0 -87.90470000000001,36.32902,0 -87.9068499,36.31599,0 -87.92092,36.2987,0 -87.86161,36.25162,0 -87.8395599,36.25892,0 -87.8484,36.2316199,0 -87.80786999999999,36.19884,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -87.80786999999999,36.19884,0 -87.82432,36.18961,0 -87.8307999,36.1641599,0 -87.8204599,36.1580199,0 -87.80252,36.08718,0 -87.8009299,36.08395,0 -87.81896,36.08215,0 -87.8260399,36.05769,0 -87.82007,36.02992,0 -87.77209000000001,36.03558,0 -87.77191999999999,36.0336499,0 -87.76300000000001,36.0318799,0 -87.7369099,36.00269,0 -87.70516000000001,35.9916399,0 -87.6900699,35.9623299,0 -87.6848899,35.96271,0 -87.68407999999999,35.96064,0 -87.65149990000001,35.93791,0 -87.64973999999999,35.89432,0 -87.6293099,35.89242,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -87.6293099,35.89242,0 -87.57633,35.88032,0 -87.54465,35.88626,0 -87.46885,35.8595499,0 -87.43229,35.8345299,0 -87.36411990000001,35.86176,0 -87.35623990000001,35.85933,0 -87.3172799,35.80517,0 -87.32461000000001,35.7793599,0 -87.3064499,35.77366,0 -87.30762,35.75427,0 -87.31217,35.75269,0 -87.2726067,35.7210733,0 -87.25934,35.7211899,0 -87.2606299,35.72252,0 -87.32038,35.6865599,0 -87.31926,35.66379,0 -87.36093990000001,35.65586,0 -87.4331,35.5778499,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -87.4331,35.5778499,0 -87.4318699,35.53385,0 -87.45838000000001,35.50361,0 -87.52233,35.4038,0 -87.57364990000001,35.34431,0 -87.5804699,35.3211199,0 -87.59175000000001,35.29468,0 -87.63403990000001,35.25159,0 -87.69645,35.24048,0 -87.73287000000001,35.17376,0 -87.76197000000001,35.1227299,0 -87.81401990000001,35.0481899,0 -87.8211099,35.00519,0 -87.82192000000001,34.9550599,0 -87.84213,34.92682,0 -87.89456989999999,34.87747,0 -87.9219499,34.8422,0 -87.9692199,34.8198,0 -87.98155,34.7887399,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -87.98155,34.7887399,0 -88.01842000000001,34.76144,0 -88.04079,34.73115,0 -88.0352899,34.7037,0 -88.08317990000001,34.67804,0 -88.0944099,34.6578999,0 -88.1310799,34.6448699,0 -88.2216699,34.6015699,0 -88.24641,34.59266,0 -88.29449,34.51318,0 -88.31484,34.5041499,0 -88.4938899,34.45677,0 -88.63902,34.4052399,0 -88.6586999,34.37927,0 -88.69345,34.34725,0 -88.70632000000001,34.33321,0 -88.7248499,34.2997399,0 -88.73268,34.28211,0 -88.7577299,34.25206,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -88.7577299,34.25206,0 -88.86450000000001,34.0904899,0 -88.91076990000001,33.98629,0 -88.9307,33.9648599,0 -88.92434,33.9301299,0 -88.94799999999999,33.89857,0 -88.9536399,33.85961,0 -89.01038,33.7904999,0 -89.04599,33.6766599,0 -89.11532,33.5984099,0 -89.14621990000001,33.54046,0 -89.24083,33.44041,0 -89.2647965,33.4225274,0 -89.29271989999999,33.3713599,0 -89.3263999,33.36074,0 -89.40295999999999,33.29308,0 -89.45232,33.21411,0 -89.45941999999999,33.1728599,0 -89.5129099,33.0975599,0 -89.5791,33.0369099,0 -89.5963,33.01936,0 -89.62627000000001,32.9009099,0 -89.6626,32.85869,0 -89.6872999,32.79832,0 -89.68922000000001,32.7398399,0 -89.71126990000001,32.70381,0 -89.71933,32.69089,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -89.71933,32.69089,0 -89.82173,32.63147,0 -89.8618999,32.5853999,0 -89.97499000000001,32.5246399,0 -90.06065989999999,32.46458,0 -90.08708670000002,32.4263682,0 -90.14490000000001,32.42844,0 -90.16174,32.43088,0 -90.21771990000002,32.4159599,0 -90.25968,32.3823099,0 -90.3536099,32.3424599,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -90.3536099,32.3424599,0 -90.4067299,32.29272,0 -90.46567989999998,32.2808799,0 -90.63918,32.1825999,0 -90.7654699,32.1190199,0 -90.86821999999999,32.0003999,0 -90.93331000000001,31.9919199,0 -90.95778,31.96571,0 -90.97216,31.94035,0 -90.99460999999999,31.9300499,0 -91.05721989999999,31.84391,0 -91.17704000000001,31.7473099,0 -91.18416000000001,31.68736,0 -91.23574989999999,31.62758,0 -91.26176,31.60895,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -91.26176,31.60895,0 -91.27755999999998,31.5909699,0 -91.30434990000001,31.5708099,0 -91.36854000000001,31.54543,0 -91.32755,31.52830000000001,0 -91.31041999999999,31.51214,0 -91.2855199,31.5119599,0 -91.11180989999998,31.39863,0 -91.12869000000001,31.35524,0 -91.10885999999999,31.3243399,0 -91.1015999,31.31356990000001,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -91.1015999,31.31356990000001,0 -91.1247699,31.3009899,0 -91.1209899,31.2906899,0 -91.13659999999999,31.2698099,0 -91.1373399,31.2670899,0 -91.14700000000001,31.2609499,0 -91.1253299,31.2351199,0 -91.12194,31.13058,0 -91.10122,31.12264,0 -91.09216000000001,31.10837,0 -91.06842,31.10783,0 -91.06748,31.09277000000001,0 -91.06893990000002,31.0904899,0 -91.0643,31.08749,0 -91.07171990000002,31.07895,0 -91.07155990000001,31.07676,0 -91.07164,31.0741399,0 -91.07293,31.02046,0 -91.10361,31.02535,0 -91.09971,30.9994699,0 
+                </coordinates>
+            </LineString>
+    </Placemark>
+    <Placemark>
+        <name>Great Rivers</name>
+        <styleUrl>#brownLine</styleUrl>
+            <LineString>
+                <coordinates>
+                    -91.09971,30.9994699,0 -91.10382989999999,30.9780999,0 -91.10507990000001,30.94973,0 -91.11586990000001,30.9332899,0 -91.12000000000001,30.91679,0 -91.12524000000001,30.91932,0 -91.1863199,30.83496,0 -91.2296499,30.84038,0 -91.24751000000001,30.83343,0 -91.26269990000002,30.8210699,0 -91.34496999999999,30.78107,0 -91.28589000000001,30.7474399,0 -91.2797999,30.74584,0 -91.268,30.68791,0 -91.26560999999998,30.67868,0 -91.197593,30.551872,0 -91.166314,30.460304,0 -91.16597499999999,30.45309,0 -91.18716000000001,30.45254,0 -91.18737800000001,30.457023,0 
+                </coordinates>
+            </LineString>
     </Placemark>
 
   </Document>
