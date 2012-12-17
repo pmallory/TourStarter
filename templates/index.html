@@ -62,9 +62,29 @@
       <!-- TODO autofill major cities-->
         <input type="text" name="address" placeholder="Where are you starting from?">
         <select name="route">
-          <option>Route?</option>
-          <option>Underground Railroad</option>
-          <option>more to come!</option>
+          <option selected="selected" disabled="disabled">Which route are you taking?</option>
+          <option value="AP">Adirondack Park Loop</option>
+          <option value="AM">Allegheny Mountains Loop</option>
+          <option value="AC">Atlantic Coast</option>
+          <option value="FL">Florida Connector</option>
+          <option value="GC">Grandy Canyon Connector</option>
+          <option value="GD">Great Divide Mountain Bike Route</option>
+          <option value="GP">Great Parks</option>
+          <option value="GR">Great Rivers South</option>
+          <option value="GML">Green Mountains Loop</option>
+          <option value="LE">Lake Erie Connector</option>
+          <option value="LC">Lewis &amp; Clark</option>
+          <option value="NL">North Lakes</option>
+          <option value="NT">Northern Tier</option>
+          <option value="PC">Pacific Coast</option>
+          <option value="SC">Sierra Cascades</option>
+          <option value="ST">Southern Tier</option>
+          <option value="TP">Tidewater Potomac</option>
+          <option value="TA">TransAmerica</option>
+          <option value="UC">Utah Cliffs Loop</option>
+          <option value="UR">Underground Railroad</option>
+          <option value="WP">Washington Parks</option>
+          <option value="WE">Western Express</option>
         </select>
         <input type="button" class="btn" id="calculate" value="Calculate" onclick="calculate">
       </div>

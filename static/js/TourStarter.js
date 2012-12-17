@@ -72,7 +72,7 @@ function calcRoute() {
             $.getJSON($SCRIPT_ROOT + '/_nearest_waypoint', {
                 lat: origin.lat(),
                 lon: origin.lng(),
-                route: 'TODO'
+                route: $("select[name='route']").val()
             }, function(data) {
                 if (data.status == 'sucess') {
                     route_lat = data.result.lat;
