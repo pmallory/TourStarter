@@ -26,7 +26,7 @@ function initialize() {
     bikeLayer.setMap(map);
 
     // TODO should be relative to $SCRIPTROOT
-    var overlay = new google.maps.KmlLayer('http://rocky-citadel-8652.herokuapp.com/static/routes/ACA_network.kml');
+    var overlay = new google.maps.KmlLayer('http://rocky-citadel-8652.herokuapp.com/static/overlays/ACA_network.kml');
     overlay.setMap(map);
 
     initializeOverlays();
@@ -37,28 +37,28 @@ function initialize() {
 
 function initializeOverlays() {
     // TODO these should be relative to $SCRIPTROOT if in production
-    routeLayers['adirondacks'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Adirondacks.kml';
-    routeLayers['allegheney'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Allegheny.kml';
-    routeLayers['atlantic coast'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Atlantic_Coast.kml';
-    routeLayers['florida'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Florida.kml';
-    routeLayers['grand canyon'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Grand_Canyon.kml';
-    routeLayers['great divide'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Great_Divide.kml';
-    routeLayers['great parks'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Great_parks.kml';
-    routeLayers['great rivers'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Great_Rivers.kml';
-    routeLayers['gren mtns'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Green_Mtns.kml';
-    routeLayers['lake erie'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Lake_Erie.kml';
-    routeLayers['lewis and clark'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Lewis_and_Clark.kml';
-    routeLayers['northern tier'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Northern_Tier.kml';
-    routeLayers['north lakes'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/North_Lakes.kml';
-    routeLayers['pacific coast'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Pacific_Coase.kml';
-    routeLayers['sierra cascades'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Sierra_Cascades.kml';
-    routeLayers['southern tier'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Southern_Tier.kml';
-    routeLayers['tidewater potomac'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Tidewater_Potomac.kml';
-    routeLayers['transam'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/TransAm.kml';
-    routeLayers['underground rr'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Underground_RR.kml';
-    routeLayers['utah cliffs'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Utah_Cliffs.kml';
-    routeLayers['washington parks'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Washington_Parks.kml';
-    routeLayers['western express'] = 'http://rocky-citadel-8652.herokuapp.com/static/routes/Western_Express.kml';
+    routeLayers['adirondacks'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Adirondacks.kml';
+    routeLayers['allegheney'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Allegheny.kml';
+    routeLayers['atlantic coast'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Atlantic_Coast.kml';
+    routeLayers['florida'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Florida.kml';
+    routeLayers['grand canyon'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Grand_Canyon.kml';
+    routeLayers['great divide'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Great_Divide.kml';
+    routeLayers['great parks'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Great_parks.kml';
+    routeLayers['great rivers'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Great_Rivers.kml';
+    routeLayers['gren mtns'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Green_Mtns.kml';
+    routeLayers['lake erie'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Lake_Erie.kml';
+    routeLayers['lewis and clark'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Lewis_and_Clark.kml';
+    routeLayers['northern tier'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Northern_Tier.kml';
+    routeLayers['north lakes'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/North_Lakes.kml';
+    routeLayers['pacific coast'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Pacific_Coase.kml';
+    routeLayers['sierra cascades'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Sierra_Cascades.kml';
+    routeLayers['southern tier'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Southern_Tier.kml';
+    routeLayers['tidewater potomac'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Tidewater_Potomac.kml';
+    routeLayers['transam'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/TransAm.kml';
+    routeLayers['underground rr'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Underground_RR.kml';
+    routeLayers['utah cliffs'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Utah_Cliffs.kml';
+    routeLayers['washington parks'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Washington_Parks.kml';
+    routeLayers['western express'] = 'http://rocky-citadel-8652.herokuapp.com/static/overlays/Western_Express.kml';
 }
 
 function calcRoute() {
