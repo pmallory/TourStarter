@@ -17,7 +17,7 @@ def load_waypoints():
     load waypoints from the gpx file, return a list of Coordinates
     """
     route = xml.etree.ElementTree.parse('./static/routes/UR.gpx')
-    waypoint_elements = route.findall('wpt')
+    waypoint_elements = route.findall('rte/rtept')
 
     waypoint_coordinates = []
     for element in waypoint_elements:
