@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<gpx
- version="1.0"
- creator="Adventure Cycling Association Gozilla.xls"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xmlns="http://www.topografix.com/GPX/1/0"
- xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<gpx>
 <url>http://www.adv-cycling.org/</url>
 <rte><name>T01010</name><number>1</number>
  <rtept lat="30.69535" lon="-88.03967"><name>T010J0</name><cmt>St Louis St/Water St.</cmt><desc>T010J0</desc><sym>Waypoint</sym><type>Waypoint</type></rtept>
