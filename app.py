@@ -2,6 +2,7 @@ import os
 import xml.etree.ElementTree
 from math import sin, cos, asin, sqrt, radians
 from collections import namedtuple
+from glob import iglob
 
 from flask import Flask, render_template, request, jsonify
 
@@ -14,17 +15,25 @@ class Coordinate(namedtuple('Coordinate', 'lon lat')):
 
 def load_waypoints():
     """
-    load waypoints from the gpx file, return a list of Coordinates
+    get route data from gpx files, make a dict mapping route
+    name to a list of Coordinates.
     """
-    route = xml.etree.ElementTree.parse('./static/routes/UR.gpx')
-    waypoint_elements = route.findall('rte/rtept')
+    gpx_files = iglob('./static/routes/*.gpx')
 
-    waypoint_coordinates = []
-    for element in waypoint_elements:
-        waypoint_coordinates.append(Coordinate(float(element.get('lon')),
-                                               float(element.get('lat'))))
+    route_dict = {}
+    for f in gpx_files:
+        route = xml.etree.ElementTree.parse(f)
+        waypoint_elements = route.findall('rte/rtept')
 
-    return waypoint_coordinates
+        waypoint_coordinates = []
+        for element in waypoint_elements:
+            waypoint_coordinates.append(Coordinate(float(element.get('lon')),
+                                                   float(element.get('lat'))))
+
+        # the name of the route is the filename minus its extension
+        route_dict[os.path.basename(f).replace('.gpx', '')] = waypoint_coordinates
+
+    return route_dict
 waypoints = load_waypoints()
 
 def distance(a, b):
@@ -59,7 +68,7 @@ def nearest_waypoint():
 
     coordinate = Coordinate(lat=float(lat), lon=float(lon))
 
-    closest_waypoint = sorted(waypoints, key=lambda waypoint: distance(coordinate, waypoint))[0]
+    closest_waypoint = sorted(waypoints[route], key=lambda waypoint: distance(coordinate, waypoint))[0]
 
     return jsonify(result={'lat':closest_waypoint.lat, 'lon':closest_waypoint.lon},
                    status='sucess')
