@@ -159,7 +159,7 @@ cleaned up by: Philip Mallory-->
 
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -169,7 +169,7 @@ cleaned up by: Philip Mallory-->
     </Placemark>
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -179,7 +179,7 @@ cleaned up by: Philip Mallory-->
     </Placemark>
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -189,7 +189,7 @@ cleaned up by: Philip Mallory-->
     </Placemark>
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -199,7 +199,7 @@ cleaned up by: Philip Mallory-->
     </Placemark>
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -209,7 +209,7 @@ cleaned up by: Philip Mallory-->
     </Placemark>
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -219,7 +219,7 @@ cleaned up by: Philip Mallory-->
     </Placemark>
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -229,7 +229,7 @@ cleaned up by: Philip Mallory-->
     </Placemark>
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -239,7 +239,7 @@ cleaned up by: Philip Mallory-->
     </Placemark>
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -249,7 +249,7 @@ cleaned up by: Philip Mallory-->
     </Placemark>
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -259,7 +259,7 @@ cleaned up by: Philip Mallory-->
     </Placemark>
     <Placemark>
       <name>Florida</name>
-      <styleUrl>#orangeLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
