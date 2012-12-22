@@ -26,7 +26,7 @@ function initialize() {
     bikeLayer.setMap(map);
 
     // TODO should be relative to $SCRIPTROOT
-    var overlay = new google.maps.KmlLayer('http://rocky-citadel-8652.herokuapp.com/static/overlays/ACA_network.kml'+cache_invalidator);
+    var overlay = new google.maps.KmlLayer('http://rocky-citadel-8652.herokuapp.com/static/overlays/ACA_network.kml');
     overlay.setMap(map);
 
     initializeOverlays();
