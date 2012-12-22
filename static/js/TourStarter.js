@@ -25,9 +25,6 @@ function initialize() {
     var bikeLayer = new google.maps.BicyclingLayer();
     bikeLayer.setMap(map);
 
-    // TODO remove this
-    cache_invalidator = "?nocache=" + (new Date()).valueOf();
-
     // TODO should be relative to $SCRIPTROOT
     var overlay = new google.maps.KmlLayer('http://rocky-citadel-8652.herokuapp.com/static/overlays/ACA_network.kml'+cache_invalidator);
     overlay.setMap(map);
