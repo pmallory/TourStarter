@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>TourStarter</title>
+
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/bootstrap-responsive.css" rel="stylesheet">
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; padding-top: 60px }
+      #map_canvas { height:100%; }
+    </style>
+
+    <link href="static/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+      </script>
+    <![endif]-->
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="static/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="static/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="static/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="static/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="static/ico/apple-touch-icon-57-precomposed.png">
+
+    <script>
+      $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">TourStarter</a>
+          <ul class="nav">
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="span5">
+    <h4>
+    What is this?
+    </h4>
+    <ul style="list-style:none;">
+        <li>
+        <p>The <a href="http://www.adventurecycling.org/">Adventure Cycling Route Network</a> is a system of scenic and bicycle friendly routes that criss-cross North America.
+        Their maps are great for planning a tour, but how do you get on a route in the first place?</p>
+        <p>That's where TourStarter comes in.
+        Enter your location and TourStarter will find the nearest point on any of Adventure Cycling's 22 routes.
+        </li>
+    </ul>
+
+    <h4>How do I use it?</h4>
+    <ul style="list-style:none;">
+        <li>Enter your starting location, choose a route, hit the button.
+        If you don't know a route's name, click it on the map.</li>
+    </ul>
+
+    <h4>I didn't get the result I was expecting.</h4>
+    <ul style="list-style:none;">
+        <li>
+            <p>TourStarter finds the closest point on a route, it doesn't check to see if there's a mountain or a great lake in the way.
+            Improving this is on the to-do list.</p>
+            <p>There might also be several points that are similar distances away from your starting point, but are nowhere near each other.
+            You can drag the destination point around to see what your options are.</p>
+        </li>
+    </ul>
+
+    <h4>The suggested route doesn't seem so great.</h4>
+    <ul style="list-style:none;">
+        <li>
+            <p>Computers aren't all knowing (yet), so the suggestion might not be the ideal cycling route.
+            Play around the route until it's how you like it.</p>
+        </li>
+    </ul>
+
+    <h4>Why are the Adventure Cycling routes so jagged looking?</h4>
+    <ul style="list-style:none;">
+        <li>
+            <p>The routes  displayed are the intersections/waypoints along the route rather than a continuous path.
+            Higher resolution overlays would require a massive amount of data which would bog down the map.</p>
+        </li>
+    </ul>
+
+    <h4>Obligatory disclaimer thing</h4>
+    <ul style="list-style:none;">
+        <li>
+            <p>If you ride your bike over a cliff it's not my fault.
+            <a href="http://www.google.com/intl/en-US_US/help/terms_maps.html">Google Maps/Earth Additional Terms of Service</a></p>
+        </li>
+    </ul>
+
+    </div>
+
+  </body>
+</html>
